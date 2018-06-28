@@ -11,9 +11,9 @@ export default class extends Component {
 
   render () {
     return (
-      <div className="error-container">
-        <div className="error-pic"></div>
-        <div className="error-text">{i18n.t('pageNotExist')}</div>
+      <div className='error-container'>
+        <div className='error-pic'></div>
+        <div className='error-text'>{i18n.t('pageNotExist')}</div>
       </div>
     )
   }

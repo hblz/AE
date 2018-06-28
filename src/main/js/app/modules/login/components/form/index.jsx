@@ -1,45 +1,55 @@
 import React from 'react'
-import { Button, Form, Input} from 'antd'
+import { Button, Form, Input } from 'antd'
 import i18n from 'i18n'
+import PropTypes from 'prop-types'
 
-const FormItem = Form.Item;
+const FormItem = Form.Item
 class LoginForm extends React.Component {
-
-  handleSubmit(e) {
-    e.preventDefault();
+  static propTypes = {
+    getFieldDecorator: PropTypes.func,
+    callBack: PropTypes.func,
+    form: PropTypes.object
   }
 
+  handleSubmit = (e) => {
+    e.preventDefault()
+    this.props.form.validateFields((err, values) => {
+      if (!err) {
+        this.props.callBack(values)
+        console.log('Received values of form: ', values)
+      }
+    })
+  }
 
-  render() {
+  render () {
     const { getFieldDecorator } = this.props.form
-    const t = i18n.getFixedT(null, 'login');
+    const t = i18n.getFixedT(null, 'login')
     return (
-      <Form horizontal onSubmit={this.handleSubmit}>
+      <Form onSubmit={this.handleSubmit}>
           <FormItem>
-            <i className="iconfont icon-account"/>
+            <i className='iconfont icon-account'/>
             {getFieldDecorator('name', {
-              rules: [{ required: true, message: '请输入账号' }],
+              rules: [{ required: true, message: '请输入账号' }]
             })(
-              <Input name="name" id="name" placeholder={t('account')}
-                     onChange={this.setField.bind(this, 'name')}/>
+              <Input name='name' id='name' placeholder={t('account')} />
             )}
           </FormItem>
 
           <FormItem>
-            <i className="iconfont icon-password"/>
+            <i className='iconfont icon-password'/>
             {getFieldDecorator('password', {
-              rules: [{ required: true, message: t('enterPwd') }],
+              rules: [{ required: true, message: t('enterPwd') }]
             })(
-              <Input type="password" name="password" placeholder={t('pwd')} autoComplete="off"/>
+              <Input type='password' name='password' placeholder={t('pwd')} autoComplete='off'/>
             )}
           </FormItem>
 
           <FormItem>
-            <Button type="primary" htmlType="submit">{t('login')}</Button>
+            <Button type='primary' htmlType='submit'>{t('login')}</Button>
           </FormItem>
       </Form>
-    );
+    )
   }
 }
-const Form = Form.create()(LoginForm)
-export default Form
+const Forms = Form.create()(LoginForm)
+export default Forms

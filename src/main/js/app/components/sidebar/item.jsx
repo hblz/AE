@@ -2,7 +2,7 @@ import React from 'react';
 import autobind from 'core-decorators/lib/autobind'
 import mixin from 'core-decorators/lib/mixin'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
-import classNames from 'classnames';
+import classNames from 'classnames'
 import PropTypes from 'prop-types'
 
 const stringOrNumber = PropTypes.oneOfType([
