@@ -1,7 +1,0 @@
-{
-  "upload": {
-    "fileSize": "文件不能大于5M",
-    "pselectFile": "请选择上传文件",
-    "uploadFile": "上传文件"
-  }
-}

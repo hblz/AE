@@ -1,7 +1,0 @@
-{
-  "checkAll": "全选",
-  "checkCurrentPage": "全选当前页",
-  "totalTip": "共有{{n}}个{{name}}",
-  "checked": "已选{{name}}",
-  "noData": "暂无数据"
-}
