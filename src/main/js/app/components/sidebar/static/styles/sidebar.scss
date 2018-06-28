@@ -1,0 +1,133 @@
+.sidebar {
+  > .ui-sidebar {
+    > li {
+      > a{
+        > span {
+          left: 40px;
+          position: absolute;
+        }
+      }
+    }
+  }
+}
+
+.ui-sidebar {
+  > li {
+    position: relative;
+    border-bottom: 1px solid #26384b;
+
+    /* 一级菜单、二级菜单公用 */
+    a {
+      display: block;
+      position: relative;
+      width: 100%;
+      color: #89a5bf;
+
+      &:hover {
+        color: #0090ff;
+      }
+
+      span, i {
+        vertical-align: middle;
+      }
+
+      .iconfont {
+        margin-right: 26px;
+      }
+    }
+
+    &.has-child {
+      > a {
+        &:hover {
+          background-color: #253950;
+          color: #89a5bf;
+        }
+        &:active {
+          background-color: #162433;
+        }
+      }
+    }
+
+    &.active {
+      > a {
+        color: #0090ff;
+        &:after {
+          content: ' ';
+          display: inline-block;
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: auto;
+          right: -2px;
+          width: 0;
+          height: 0;
+          border-width: 10px 8px 10px 0;
+          border-style: solid;
+          border-color: transparent #ecf1f7 transparent transparent;
+          margin: auto 0;
+        }
+      }
+    }
+    // 一级菜单
+    > a {
+      height: 64px;
+      line-height: 64px;
+      font-size: 16px;
+      text-indent: 22px;
+
+      &:before {
+        margin-right: 20px;
+      }
+    }
+
+    .arrow {
+      display: inline-block;
+      position: absolute;
+      top: 5px;
+      bottom: 0;
+      left: auto;
+      right: 20px;
+      width: 14px;
+      height: 6px;
+      margin: auto 0;
+      background: url("../images/arrow.png") center center;
+      background-size: 100% 100%;
+      transition: all .3s ease;
+    }
+  }
+
+  &-item {
+    > ul {
+      opacity: 0;
+      overflow: hidden;
+      transition: all .3s ease;
+      background-color: #162433;
+      > li {
+        border-bottom: none;
+        > a {
+          height: 46px;
+          line-height: 46px;
+          text-indent: 65px;
+          font-size: 14px;
+
+          > i {
+            font-size: 12px;
+            color: #506579;
+            padding-bottom: -5px;
+            padding-right: 5px;
+          }
+        }
+      }
+    }
+
+    &.open {
+      > ul {
+        opacity: 1;
+      }
+
+      .arrow {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}

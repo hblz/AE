@@ -1,0 +1,69 @@
+{
+  "name": "uxcore-uploadcore",
+  "version": "2.0.2",
+  "description": "uxcore uploadcore",
+  "main": "dist/uploadcore.js",
+  "scripts": {
+    "build": "gulp build && gulp flash",
+    "start": "npm install && gulp start",
+    "dev": "npm install && gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/uxcore/uxcore-uploadcore.git"
+  },
+  "bugs": {
+    "url": "http://github.com/uxcore/uxcore-uploadcore/issues"
+  },
+  "keywords": [
+    "react",
+    "es6",
+    "react-component",
+    "uxcore",
+    "upload",
+    "uploader"
+  ],
+  "devDependencies": {
+    "babel-core": "^5.1.13",
+    "babel-loader": "^5.0.0",
+    "exports-loader": "^0.6.2",
+    "gulp": "^3.8.11",
+    "gulp-util": "^3.0.6",
+    "gulp-rename": "^1.2.2",
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.8.4",
+    "browser-sync": "^2.9.3",
+    "es6-promise": "^2.1.1",
+    "object-assign": "^2.0.0",
+    "es5-shim": "^4.1.13",
+    "spark-md5": "^1.0.0"
+  },
+  "dependencies": {},
+  "author": {
+    "name": "onbing"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "homepage": "http://uxcore.github.io/uxcore-uploadcore",
+  "_id": "uxcore-uploadcore@2.0.2",
+  "dist": {
+    "shasum": "cfbb8490f75d3d1467d93740d56fea27aa55ce6d",
+    "tarball": "http://registry.npmjs.org/uxcore-uploadcore/-/uxcore-uploadcore-2.0.2.tgz"
+  },
+  "_from": "uxcore-uploadcore@>=2.0.1 <3.0.0",
+  "_npmVersion": "1.4.3",
+  "_npmUser": {
+    "name": "onbing",
+    "email": "me@yanbingbing.com"
+  },
+  "maintainers": [
+    {
+      "name": "onbing",
+      "email": "me@yanbingbing.com"
+    }
+  ],
+  "directories": {},
+  "_shasum": "cfbb8490f75d3d1467d93740d56fea27aa55ce6d",
+  "_resolved": "https://registry.npmjs.org/uxcore-uploadcore/-/uxcore-uploadcore-2.0.2.tgz",
+  "readme": "ERROR: No README data found!"
+}

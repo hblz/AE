@@ -1,0 +1,33 @@
+.chart-time{
+  .ant-form-inline {
+    padding: 16px;
+    background: #fff;
+    &:first-child {
+      padding: 20px;
+      background: #D9E1EC;
+      border-top-right-radius: 6px;
+    }
+
+    .ant-form-item {
+      margin-bottom: 0;
+    }
+  }
+  .time-not-active{
+    color: #666;
+  }
+  .time-button * {
+    pointer-events: none;
+  }
+  .margin-left-3em { margin-left: 3em;}
+}
+
+.chart-div{
+  background-color: #fff;
+}
+.chart-title{
+  font-size: large;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+

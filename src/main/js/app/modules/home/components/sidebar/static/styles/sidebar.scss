@@ -1,0 +1,30 @@
+// 侧边栏
+.sidebar {
+  position: fixed;
+  top: 70px;
+  width: 240px;
+  height: 100%;
+  height: calc(100% - 70px);
+  height: -moz-calc(100% - 70px);
+  height: -webkit-calc(100% - 70px);
+  background: #1d2d40;
+  overflow: hidden;
+  z-index: 1;
+
+  &:hover {
+    overflow: auto;
+  }
+
+  &::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .round {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #506579;
+    margin-right: 10px;
+  }
+}

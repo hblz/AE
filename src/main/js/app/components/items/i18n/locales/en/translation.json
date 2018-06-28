@@ -1,0 +1,6 @@
+{
+  "checkAll": "全选",
+  "checkCurrentPage": "全选当前页",
+  "totalTip": "共有{{n}}条{{name}}",
+  "checked": "已选{{name}}"
+}

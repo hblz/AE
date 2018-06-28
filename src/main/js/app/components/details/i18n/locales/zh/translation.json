@@ -1,0 +1,20 @@
+{
+  "download" : "下载",
+  "close": "关闭",
+  "image" : "图片",
+  "audio" : "语音",
+  "rich": "富文本",
+  "article" : "图文",
+  "text" : "文字",
+  "link": "分享链接",
+  "box": "应用消息",
+  "default": "其他消息",
+  "articleInfo": "图文详情",
+  "audioInfo": "语音详情",
+  "boxInfo": "应用消息详情",
+  "imageInfo": "图片详情",
+  "linkInfo": "链接详情",
+  "richInfo": "富文本详情",
+  "textInfo": "文字详情",
+  "defaultInfo": "其他消息详情"
+}

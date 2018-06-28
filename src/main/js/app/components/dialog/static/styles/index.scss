@@ -1,0 +1,23 @@
+.cmp-dialog {
+  .dialog-content {
+    padding: 20px 40px 0 40px;
+    font-size: 15px;
+    line-height: 22px;
+    color: #5b6480;
+    word-break: break-all;
+  }
+}
+
+
+.percent-modal{
+    .ant-modal-body{
+        text-align: center;
+        padding: 40px 16px;
+    }
+    .ant-modal-header{
+        display: none;
+    }
+    .ant-modal-footer{
+        display: none;
+    }
+}

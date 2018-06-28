@@ -1,0 +1,16 @@
+{
+  "login": "登录",
+  "wait": "登录中...",
+  "account": "工号@组织",
+  "pwd": "密码",
+  "denied": "没有权限",
+  "success": "登录成功",
+  "validate": "正在校验中...",
+  "accountTip": "账号至少为 {{n}} 个字符",
+  "enterPwd": "请填写密码",
+  "qrcode": {
+    "open99u": "打开微信客户端",
+    "scan": "扫描登录",
+    "getError": "二维码获取失败！"
+  }
+}

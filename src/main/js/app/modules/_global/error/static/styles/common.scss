@@ -1,0 +1,23 @@
+@import "compass/layout/stretching";
+
+.error {
+  &-container {
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    @include stretch;
+  }
+
+  &-pic {
+    display: inline-block;
+    width: 290px;
+    height: 196px;
+    background-image: url("../images/sad.png");
+  }
+
+  &-text {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #9697A9;
+  }
+}

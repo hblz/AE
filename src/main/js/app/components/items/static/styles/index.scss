@@ -1,0 +1,155 @@
+.items-area {
+  .main-header .btn-area .check-area {
+    cursor: pointer;
+    padding-right: 10px;
+  }
+
+  .items-body {
+    position: relative;
+    width: 100%;
+
+    .clear-area {
+      clear: both;
+    }
+
+    .ant-table-placeholder {
+      top: 0;
+      border: 1px solid #e8edf4;
+      border-top: 0;
+      border-bottom: 1px solid #e9e9e9;
+      box-shadow: 0px 0px 1px #e8edf4;
+    }
+
+    .items-container {
+      width: 100%;
+      padding-top: 20px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+      background: transparent;
+
+      .item-box {
+        position: relative;
+        float: left;
+        width: 200px;
+        height: 55px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+        padding: 4px 10px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background: #fff;
+        box-shadow: 0px 0px 3px rgba(0,0,0,.1);
+        display: flex;
+        align-items: center;
+
+        .ant-checkbox {
+          float: left;
+          margin-top: 3px;
+        }
+
+        .checkbox-disabled {
+          display: inline-block;
+          width: 14px;
+          height: 14px;
+          border: 1px solid #d9d9d9;
+          background: #f3f3f3;
+          border-radius: 3px;
+          cursor: not-allowed;
+          vertical-align: middle;
+          float: left;
+          margin-top: 2px;
+          margin-right: 8px;
+        }
+
+        .name-box {
+          flex: 1;
+          display: block;
+
+          .ant-form-inline {
+            width: 158px;
+            display: inline-block;
+
+            input {
+              width: 100%;
+              line-height: 1.5;
+              font-family: Tahoma, Arial, Helvetica, "Microsoft YaHei", "宋体", sans-serif;
+            }
+
+            .ant-form-item {
+              margin: 0;
+
+              &.ant-form-item-with-help .ant-form-explain {
+                position: absolute;
+                margin: 4px 0;
+                white-space: nowrap;
+                left: 0;
+              }
+            }
+          }
+        }
+
+        .name-box .name {
+          display: inline-block;
+          padding-left: 8px;
+          box-sizing: border-box;
+          cursor: pointer;
+        }
+
+        .name-box .icon {
+          margin: 0 10px;
+        }
+
+        .icon {
+          cursor: pointer;
+
+          &:hover {
+            color: #38acff;
+          }
+        }
+
+        .del-icon {
+          display: none;
+          position: absolute;
+          top: -5px;
+          right: -15px;
+          width: 24px;
+          height: 24px;
+
+          > span {
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: #f53f3b;
+            cursor: pointer;
+
+            &:hover {
+              background: #ff514e;
+            }
+
+            > span {
+              display: inline-block;
+              width: 10px;
+              height: 2px;
+              background: #ffffff;
+              float: left;
+              margin: 6px 2px;
+            }
+          }
+        }
+
+        &:hover .del-icon {
+          display: inline-block;
+        }
+      }
+    }
+
+    .items-pagination {
+      text-align: right;
+
+      ul {
+        display: inline-block;
+      }
+    }
+  }
+}

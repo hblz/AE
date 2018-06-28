@@ -1,0 +1,22 @@
+.select-option.ant-select-dropdown-menu-item {
+  transition: background 0s ease;
+
+  &-active {
+    background-image: url("../images/plus.png");
+    background-repeat: no-repeat;
+    background-position: 95% 7px;
+  }
+}
+
+.main {
+  .select-handler {
+    .ant-select-selection {
+      height: inherit !important;
+      line-height: inherit !important;
+    }
+
+    .ant-select-selection__rendered {
+      height: inherit !important;
+    }
+  }
+}

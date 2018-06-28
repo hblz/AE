@@ -1,0 +1,90 @@
+{
+  "logout": "退出",
+  "languages": {
+    "zh": "简体中文",
+    "en": "英语"
+  },
+  "sidebar": {
+    "oa": {
+      "manage": "公众号管理",
+      "check": "公众号审核",
+      "list": "公众号列表",
+      "verification": "信息修改审核",
+      "auth": "用户权限",
+      "settings": "默认配置"
+    },
+    "log": {
+      "manage": "日志管理",
+      "push": "任务推送日志",
+      "execute": "任务执行日志",
+      "reward": "任务奖励日志"
+    },
+    "tenants": {
+      "manage": "租户管理",
+      "detail": "租户详情"
+    },
+    "tasks": {
+      "manage": "任务管理"
+    },
+    "taskLists": {
+      "manage": "列表管理"
+    },
+    "push": {
+      "manage": "推送管理"
+    },
+    "dict": {
+       "manage": "字典管理",
+       "list": "字典列表",
+       "settings": "字典配置"
+      },
+    "auditTasks": {
+      "manage": "任务审核",
+      "vouchers": "任务凭证审核",
+      "delays": "任务延期审核"
+    },
+    "signs": {
+      "manage": "签到管理",
+      "festival": "特殊节日"    },
+    "rule": {
+      "manage": "奖励规则配置"
+    }
+  },
+  "achievements": {
+    "listenerConfig": "监听行为配置",
+    "achievement": {
+      "system": "成就系统",
+      "configs": "成就配置列表",
+      "template": "成就前端展示配置",
+      "report": "用户成就表",
+      "reportAll": "成就数据总表",
+      "reportDay": "成就数据日表"
+    },
+    "title": {
+      "system": "称号系统",
+      "template": "称号前端展示配置",
+      "types": "称号类型列表",
+      "user": "用户称号列表",
+      "grant": "系统派发称号",
+      "reportAll": "称号数据总表",
+      "reportDay": "称号数据日表"
+    },
+    "privilege": {
+      "system": "特权系统",
+      "configs": "特权配置列表",
+      "grant": "系统发放特权",
+      "reportAll": "特权数据总表",
+      "reportDay": "特权数据日表"
+    }
+  },
+  "welcome": "欢迎使用管理后台",
+  "oaChecked": "公众号审核",
+  "unChecked": "未审核",
+  "group": "群组{{info}}",
+  "groupMessage": "群息$t(send)",
+  "send": "发送",
+  "manage": "管理",
+  "noSpeak": "用户禁言",
+  "title": {
+      "uitype": "称号前端展示配置"
+  }
+}

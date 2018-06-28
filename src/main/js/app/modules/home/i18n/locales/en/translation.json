@@ -1,0 +1,30 @@
+{
+  "logout": "Logout",
+  "languages": {
+    "zh": "Chinese",
+    "en": "English"
+  },
+  "sidebar": {
+    "oa": {
+      "manage": "OA Manage",
+      "check": "OA Check",
+      "list": "OA List",
+      "verification": "Modify",
+      "auth": "Auth Settings",
+      "settings": "Default Settings"
+    },
+    "tasks": {
+      "manage": "task Manage"
+    }
+  },
+  "welcome":"欢迎使用管理后台",
+  "oaChecked":"oa check",
+  "unChecked":"uncheck",
+  "group":"群组{{info}}",
+  "send":"发送",
+  "manage":"管理",
+  "noSpeak":"用户禁言",
+  "title": {
+    "uitype": "称号前端展示配置"
+}
+}

@@ -1,0 +1,16 @@
+{
+  "login": "Login",
+  "wait": "login...",
+  "account": "ID@Organization",
+  "pwd": "password",
+  "denied": "Permission denied",
+  "success": "Login successfully",
+  "validate": "正在校验中...",
+  "accountTip": "账号至少为 {{n}} 个字符",
+  "enterPwd": "请填写密码",
+  "qrcode": {
+    "open99u": "Open WX client",
+    "scan": "Scanning login",
+    "getError": "二维码获取失败！"
+  }
+}

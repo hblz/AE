@@ -1,0 +1,80 @@
+{
+  "name": "uxcore-uploader",
+  "version": "1.1.4",
+  "description": "uxcore-uploader component for react",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npm install && gulp start",
+    "dev": "npm install && gulp start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/uxcore/uxcore-uploader.git"
+  },
+  "bugs": {
+    "url": "http://github.com/uxcore/uxcore-uploader/issues"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "react-uxcore-uploader",
+    "uxcore-uploader"
+  ],
+  "devDependencies": {
+    "babel-core": "^5.1.13",
+    "babel-loader": "^5.0.0",
+    "browser-sync": "^2.9.3",
+    "css-loader": "^0.13.1",
+    "es5-shim": "^4.1.10",
+    "es6-promise": "^2.1.1",
+    "exports-loader": "^0.6.2",
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-util": "^3.0.6",
+    "highlight.js": "^8.8.0",
+    "jquery": "^1.11.3",
+    "less": "^2.5.0",
+    "less-loader": "^2.2.0",
+    "node-libs-browser": "^0.5.2",
+    "object-assign": "^2.0.0",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "spark-md5": "^1.0.0",
+    "style-loader": "^0.12.2",
+    "uxcore-kuma": "~1.1.0",
+    "webpack": "^1.10.5"
+  },
+  "dependencies": {
+    "uxcore-uploadcore": "^2.0.1"
+  },
+  "author": {
+    "name": "onbing"
+  },
+  "contributors": [],
+  "license": "MIT",
+  "gitHead": "266430d09af248569c9e3e63ca4d00740ae69f30",
+  "homepage": "https://github.com/uxcore/uxcore-uploader#readme",
+  "_id": "uxcore-uploader@1.1.4",
+  "_shasum": "ed86d291b27cfc3378a9a93d8df8cca9c223a163",
+  "_from": "uxcore-uploader@*",
+  "_npmVersion": "2.14.7",
+  "_nodeVersion": "4.2.1",
+  "_npmUser": {
+    "name": "onbing",
+    "email": "me@yanbingbing.com"
+  },
+  "maintainers": [
+    {
+      "name": "onbing",
+      "email": "me@yanbingbing.com"
+    }
+  ],
+  "dist": {
+    "shasum": "ed86d291b27cfc3378a9a93d8df8cca9c223a163",
+    "tarball": "http://registry.npmjs.org/uxcore-uploader/-/uxcore-uploader-1.1.4.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/uxcore-uploader/-/uxcore-uploader-1.1.4.tgz",
+  "readme": "ERROR: No README data found!"
+}

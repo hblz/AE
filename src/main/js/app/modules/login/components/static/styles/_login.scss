@@ -1,0 +1,193 @@
+// 背景
+.login-bg {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: url("../images/bg.jpg") center center;
+}
+
+// sso 登录
+.login-sso {
+  width: 50%;
+  height: 50px;
+  overflow: hidden;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+
+  &-text {
+    color: #fff;
+    font-size: 20px;
+  }
+}
+
+// 登录 logo
+.login-logo {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -341px;
+  margin-top: -200px;
+  background: url(../images/logo.png) no-repeat;
+  overflow: hidden;
+  width: 221px;
+  height: 44px;
+}
+
+// 登录面板
+.login-panel {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -340px;
+  margin-top: -117px;
+  width: 680px;
+  height: 320px;
+  border-radius: 5px;
+  overflow: hidden;
+
+  .ant-form-item {
+    margin-bottom: -1px;
+  }
+
+  .ant-input {
+    padding-left: 40px;
+    height: 48px;
+    font-size: 14px;
+  }
+
+  .ant-btn {
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin-top: 20px;
+  }
+
+  .ant-input:hover,
+  .ant-input:active,
+  .ant-input:focus,
+  .has-error .ant-input {
+    border-color: #d9d9d9 !important;
+    box-shadow: none;
+  }
+
+  .has-success.has-feedback:after,
+  .has-warning.has-feedback:after,
+  .has-error.has-feedback:after,
+  .is-validating.has-feedback:after {
+    bottom: 6px !important;
+  }
+
+  .ant-form-explain {
+    bottom: 13px;
+    right: 0;
+    width: 100%;
+    padding-right: 30px;
+    text-align: right;
+  }
+}
+
+.login-form,
+.login-qrcode {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  overflow: hidden;
+  box-shadow: 0 0 4px #aaaaaa;
+}
+
+// 表单登录
+.login-form {
+  left: 0;
+  width: 440px;
+  background-color: #ecf1f8;
+  border-radius: 5px;
+
+  .login-form-title {
+    font-size: 24px;
+    padding: 45px 0 0 59px;
+  }
+
+  form {
+    width: 320px;
+    margin: 22px auto
+  }
+
+  .ant-form-item {
+    position: relative;
+  }
+
+  .iconfont {
+    position: absolute;
+    left: 10px;
+    font-size: 20px;
+    top: 12px;
+    color: #9caec7;
+    z-index: 1000;
+  }
+}
+
+// 二维码登录
+.login-qrcode {
+  right: 0;
+  width: 245px;
+  padding-left: 5px;
+  background-color: #60bdff;
+
+  .qrcode {
+    box-sizing: border-box;
+    background-image: url("../images/qrcode-big.png");
+    background-size: 160px 160px;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 290px;
+    margin: 45px auto;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+  }
+
+  .qrcode img {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 35px;
+  }
+}
+
+// 样式重写
+#name {
+  border-radius: 4px 4px 0 0;
+}
+
+#password {
+  border-radius: 0 0 4px 4px;
+}
+
+#identify {
+  border-radius: 0 0 4px 4px;
+  padding-left: 91px !important;
+}
+
+#border0 {
+  border-radius: 0 !important;
+}
+
+.identify-class {
+  position: absolute;
+  z-index: 5;
+  height: 46px;
+  width: 88px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}

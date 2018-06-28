@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "iconfont";
+  src: url('../fonts/iconfont.eot?t=1484534714278'); /* IE9*/
+  src: url('../fonts/iconfont.eot?t=1484534714278#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('../fonts/iconfont.woff?t=1484534714278') format('woff'), /* chrome, firefox */
+  url('../fonts/iconfont.ttf?t=1484534714278') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/iconfont.svg?t=1484534714278#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-app:before { content: "\e60c"; }
+.icon-keyword:before { content: "\e637"; }
+.icon-server:before { content: "\e60d"; }
+.icon-yinshipin:before { content: "\e60e"; }
+.icon-logout:before { content: "\e60a"; }
+.icon-checked:before { content: "\e605"; }
+.icon-account:before { content: "\e601"; }
+.icon-data:before { content: "\e602"; }
+.icon-message:before { content: "\e603"; }
+.icon-password:before { content: "\e604"; }
+.icon-chat:before { content: "\e606"; }
+.icon-group:before { content: "\e607"; }
+.icon-report:before { content: "\e608"; }
+.icon-advance:before { content: "\e609"; }
+.icon-oa:before { content: "\e600"; }
+.icon-globe:before { content: "\e60b"; }
+.icon-im_liaotianshi:before { content: "\e618"; }
+.icon-biaoqing:before { content: "\e616"; }
+.icon-image:before { content: "\e60f"; }
+.icon-article:before { content: "\e610"; }
+.icon-text:before { content: "\e615"; }
+.icon-audio:before { content: "\e611"; }
+.icon-windows:before { content: "\e612"; }
+.icon-richtext:before { content: "\e613"; }
+.icon-link:before { content: "\e614"; }
+.icon-redbag:before { content: "\e617"; }
+.icon-shengrizhufu:before { content: "\e619"; }
+.icon-check:before { content: "\e698"; }
+.icon-config:before { content: "\e638"; }
