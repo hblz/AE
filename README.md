@@ -7,6 +7,7 @@ npm install
 ## 运行
 ```js
 npm run dev
+访问： http://localhost:3000/#/login
 ```
 ## 编译
 ```js
